@@ -1,11 +1,8 @@
 # Fiche de Lecture
 
 Titre: A unification algorithm for typed λ-calculus
-
 Auteurs: G.P. HUET
-
 Date: 1973-1974  
-
 Lien: http://www.sciencedirect.com/science/article/pii/0304397575900110
 
 ## Résumé
@@ -14,14 +11,11 @@ Ce papier présente deux algorithmes qui recherchent l'existence d'un unifieur p
 
 Le premier algorithme utilise les règles α et β de la λ-conversion tandis que le second utilise une règle η plus simple pour l'implémentation.
 Ces deux algorithmes utilise des procédures nommées SIMPL et MATCH pour construire un "matching tree"
-
 SIMPLE prends un "disagreement set" et retourne un noeud du matching tree.
 MATCH prends un terme "flexible" et un terme "rigide" de même type et retourne ensemble fini de substitutions.
 
 Le document est assez long (31 pages), et un point important est donné a la définition du lambda calcul et aux preuves que leurs algorithms sont corrects.
-
 Des arguments sont donnés quand aux performances et à la complexité de leurs algorithmes. Leur arguments se basent sur le fait que ce sont des algorithmes de décisions (qui évaluent les situations les plus favorables en premier) et sur le fait que leur recherche n'est pas redondante.
-
 Ils affirment donc que leurs algorithmes sont plus efficaces que les autres algorithmes existant à cette époque.
 
 ## Références
